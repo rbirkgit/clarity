@@ -27,10 +27,12 @@
 
 //Icons & Images
 @import '../image/icons.clarity'; // depends on variables.clarity
+@import '../image/mixins.clarity';
 @import '../image/images.clarity'; // depends on variables.clarity, mixins.clarity, icons.clarity
 
 //Typography
 //depends on colors.clarity, color.clarity, variables.clarity, utilities.clarity
+@import '../typography//mixins.clarity';
 @import '../typography/typography.clarity';
 @import '../typography/code.clarity';
 
