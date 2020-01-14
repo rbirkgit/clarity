@@ -3,7 +3,7 @@
 // The full license information can be found in LICENSE in the root directory of this project.
 
 @include exports('select.clarity') {
-  .select {
+  .form .select {
     position: relative;
 
     select {
@@ -80,8 +80,8 @@
   }
 
   //Multiple Select
-  select[multiple],
-  select[size] {
+  .form select[multiple],
+  .form select[size] {
     padding: 0;
     background: $clr-multiple-select-background;
     border: $clr-default-borderwidth solid $clr-multiple-select-border-color;

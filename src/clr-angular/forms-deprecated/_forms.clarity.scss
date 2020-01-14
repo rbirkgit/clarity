@@ -40,7 +40,6 @@
   // added `.form` class because we may not always have proper HTML with form fields within a form.
   // there may be weird cases where we have form fields inside a div or li tag with no wrapping form.
   // that's bad, i know. but webdevs do it.
-  form,
   .form {
     padding-top: 0.5rem;
 
@@ -228,7 +227,7 @@
 
   //This class is used to provide validation styling to textboxes.
   //Wrap the textbox with a container extending this class
-  .tooltip.tooltip-validation {
+  .form .tooltip.tooltip-validation {
     $error-icon-width: $clr-form-icon-dim;
     $error-icon-margin: 0.25rem;
 
@@ -333,7 +332,6 @@
     }
   }
 
-  form,
   .form {
     &.compact {
       .form-block {
@@ -350,15 +348,19 @@
   }
 
   @include fixForIE10AndUp() {
-    #{$styledInputs} {
-      padding-bottom: 0.125rem;
+    .form {
+        & #{$styledInputs} {
+          padding-bottom: 0.125rem;
+      }
     }
   }
 
   // order here is important b/c we need to override the IE10 styles
   @include fixForMsEdge() {
-    #{$styledInputs} {
-      padding-bottom: 0;
+    .form {
+      & #{$styledInputs} {
+        padding-bottom: 0;
+      }
     }
   }
 }
