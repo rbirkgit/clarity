@@ -89,12 +89,16 @@
       }
 
       & > label:first-child,
-      & > span:first-child,
-      &.row > [class*='col-'] > label,
-      &.row > [class*='col-'] > span {
-        color: $clr-form-text-color;
+      &.row > [class*='col-'] > label:not(.tooltip) {
+        color: $clr-forms-label-color;
+        font-weight: 600;
 
         @include generate-required-indicator();
+      }
+
+      & > span:first-child,
+      &.row > [class*='col-'] > span {
+        color: $clr-forms-text-color;
       }
 
       .form-control {
