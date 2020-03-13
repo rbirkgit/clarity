@@ -231,7 +231,7 @@
 
   //This class is used to provide validation styling to textboxes.
   //Wrap the textbox with a container extending this class
-  .form .tooltip.tooltip-validation {
+  .form:not(.form-layout-only) .tooltip.tooltip-validation {
     $error-icon-width: $clr-form-icon-dim;
     $error-icon-margin: 0.25rem;
 
@@ -353,8 +353,8 @@
 
   @include fixForIE10AndUp() {
     .form {
-        & #{$styledInputs} {
-          padding-bottom: 0.125rem;
+      & #{$styledInputs} {
+        padding-bottom: 0.125rem;
       }
     }
   }
