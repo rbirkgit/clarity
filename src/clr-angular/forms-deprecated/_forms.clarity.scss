@@ -67,7 +67,8 @@
       margin-bottom: 0.5rem;
       @include clr-getTypePropertiesForDomElement(form_group_fields, (font-size, letter-spacing, line-height));
 
-      &.row {
+      &.row,
+      &.clr-row {
         padding-left: 0;
         position: static;
       }
@@ -84,12 +85,15 @@
       }
 
       &.row > [class*='col-']:first-child > label,
-      &.row > [class*='col-']:first-child > span {
+      &.row > [class*='col-']:first-child > span,
+      &.clr-row > [class*='col-']:first-child > label,
+      &.clr-row > [class*='col-']:first-child > span {
         position: static;
       }
 
       & > label:first-child,
-      &.row > [class*='col-'] > label:not(.tooltip) {
+      &.row > [class*='col-'] > label:not(.tooltip),
+      &.clr-row > [class*='col-'] > label:not(.tooltip) {
         color: $clr-forms-label-color;
         font-weight: 600;
 
@@ -97,7 +101,8 @@
       }
 
       & > span:first-child,
-      &.row > [class*='col-'] > span {
+      &.row > [class*='col-'] > span,
+      &.clr-row > [class*='col-'] > span {
         color: $clr-forms-text-color;
       }
 
