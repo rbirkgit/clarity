@@ -3,7 +3,7 @@
 // The full license information can be found in LICENSE in the root directory of this project.
 
 @include exports('inputs.clarity') {
-  .form:not(.form-layout-only) {
+  .form.form-legacy {
     & #{$styledInputs} {
       @include custom-inputs(1rem);
       @include clr-form-fields-appearance(2.5rem, $clr-form-field-border-color);
@@ -27,7 +27,7 @@
     }
   }
 
-  .form:not(.form-layout-only) textarea {
+  .form.form-legacy textarea {
     resize: vertical;
     width: 100%;
     background: $clr-textarea-bg-color;
