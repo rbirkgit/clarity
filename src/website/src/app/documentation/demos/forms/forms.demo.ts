@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+ * Copyright (c) 2016-2020 VMware, Inc. All Rights Reserved.
  * This software is released under MIT license.
  * The full license information can be found in LICENSE in the root directory of this project.
  */
@@ -23,6 +23,8 @@ import * as NgOverride from 'raw-loader!./ng/override.html';
 import * as NgOptional from 'raw-loader!./ng/optional.html';
 import * as NgReset from '!raw-loader!./ng/reset.txt';
 import * as NgValidate from '!raw-loader!./ng/validate.txt';
+import * as NgGenericTs from '!raw-loader!./ng/generic.txt';
+import * as NgGenericHtml from '!raw-loader!./ng/generic.html';
 
 @Component({
   selector: 'clr-forms-demo',
@@ -54,4 +56,6 @@ export class FormsDemo extends ClarityDocComponent {
   ngOverride: any = NgOverride;
   ngReset: any = NgReset;
   ngValidate: any = NgValidate;
+  ngGenericTs: any = NgGenericTs;
+  ngGenericHtml: any = NgGenericHtml;
 }

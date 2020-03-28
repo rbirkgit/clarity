@@ -45,6 +45,22 @@ export declare const CLR_VERTICAL_NAV_DIRECTIVES: Type<any>[];
 
 export declare const CLR_WIZARD_DIRECTIVES: any[];
 
+export declare abstract class ClrAbstractContainer implements DynamicWrapper, OnDestroy {
+    _dynamic: boolean;
+    control: NgControl;
+    protected controlClassService: ControlClassService;
+    protected ifErrorService: IfErrorService;
+    invalid: boolean;
+    label: ClrLabel;
+    protected layoutService: LayoutService;
+    protected ngControlService: NgControlService;
+    protected subscriptions: Subscription[];
+    constructor(ifErrorService: IfErrorService, layoutService: LayoutService, controlClassService: ControlClassService, ngControlService: NgControlService);
+    addGrid(): boolean;
+    controlClass(): string;
+    ngOnDestroy(): void;
+}
+
 export declare class ClrAccordion implements OnInit, OnChanges, AfterViewInit, OnDestroy {
     multiPanel: boolean;
     panels: QueryList<ClrAccordionPanel>;
