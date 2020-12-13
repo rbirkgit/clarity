@@ -67,7 +67,6 @@
       margin-bottom: 0.5rem;
       @include clr-getTypePropertiesForDomElement(form_group_fields, (font-size, letter-spacing, line-height));
 
-      &.row,
       &.clr-row {
         padding-left: 0;
         position: static;
@@ -84,15 +83,12 @@
         margin: 0;
       }
 
-      &.row > [class*='col-']:first-child > label,
-      &.row > [class*='col-']:first-child > span,
       &.clr-row > [class*='col-']:first-child > label,
       &.clr-row > [class*='col-']:first-child > span {
         position: static;
       }
 
       & > label:first-child,
-      &.row > [class*='col-'] > label:not(.tooltip),
       &.clr-row > [class*='col-'] > label:not(.tooltip) {
         color: $clr-forms-label-color;
         font-weight: 600;
@@ -101,7 +97,6 @@
       }
 
       & > span:first-child,
-      &.row > [class*='col-'] > span,
       &.clr-row > [class*='col-'] > span {
         color: $clr-forms-text-color;
       }
@@ -236,6 +231,7 @@
 
   //This class is used to provide validation styling to textboxes.
   //Wrap the textbox with a container extending this class
+  /*
   .form.form-legacy .tooltip.tooltip-validation {
     $error-icon-width: $clr-form-icon-dim;
     $error-icon-margin: 0.25rem;
@@ -340,6 +336,7 @@
       }
     }
   }
+  */
 
   .form {
     &.compact {
