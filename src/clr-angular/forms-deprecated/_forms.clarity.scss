@@ -28,10 +28,10 @@
   &.required {
     &:after {
       content: '*';
-      font-size: 0.58479532rem; // Approximately 14px.
-      line-height: 0.5rem;
+      font-size: $clr_baselineRem_0_583; // Approximately 14px.
+      line-height: $clr_baselineRem_0_5;
       color: $clr-red;
-      margin-left: 0.25rem;
+      margin-left: $clr_baselineRem_0_25;
     }
   }
 }
@@ -41,7 +41,7 @@
   // there may be weird cases where we have form fields inside a div or li tag with no wrapping form.
   // that's bad, i know. but webdevs do it.
   .form {
-    padding-top: 0.5rem;
+    padding-top: $clr_baselineRem_0_5;
 
     label,
     span {
@@ -49,13 +49,13 @@
     }
 
     .form-block {
-      margin: 0.5rem 0 1.5rem 0;
+      margin: $clr_baselineRem_0_5 0 $clr_baselineRem_1_5 0;
       & > label {
         color: $clr-form-text-color;
         font-size: $clr-forms-block-label-font-size;
         font-weight: $clr-forms-block-label-font-weight;
         letter-spacing: $clr-forms-block-label-letter-spacing;
-        margin-bottom: 0.25rem;
+        margin-bottom: $clr_baselineRem_0_25;
       }
     }
 
@@ -64,15 +64,15 @@
       display: flex;
       flex-wrap: wrap;
       position: relative;
-      padding-left: 9.5rem;
+      padding-left: $clr_baselineRem_9_5;
       //Everything else except for the first label starts after this padding on large screens
-      margin-bottom: 0.5rem;
+      margin-bottom: $clr_baselineRem_0_5;
       font-size: $clr-forms-text-font-size;
       font-weight: $clr-forms-text-font-weight;
       letter-spacing: $clr-forms-text-letter-spacing;
 
       // Adding just in case, because previous version had it and don't want to break existing layouts
-      line-height: 1rem;
+      line-height: $clr_baselineRem_1;
 
       &.clr-row {
         padding-left: 0;
@@ -84,9 +84,9 @@
       & > label:first-child,
       & > span:first-child {
         position: absolute;
-        width: 8.5rem;
+        width: $clr_baselineRem_8_5;
         left: 0;
-        top: 0.25rem;
+        top: $clr_baselineRem_0_25;
         margin: 0;
       }
 
@@ -126,7 +126,7 @@
       & > .btn {
         flex: 0 1 auto;
         margin-left: 0;
-        margin-right: 0.5rem;
+        margin-right: $clr_baselineRem_0_5;
       }
 
       //Link buttons have no right margin
@@ -138,18 +138,18 @@
       & > .radio {
         flex: 1 1 100%;
         margin-left: 0;
-        margin-right: 1rem;
+        margin-right: $clr_baselineRem_1;
       }
 
       & > .toggle-switch {
         flex: 0 1 auto;
         margin-left: 0;
-        margin-right: 1rem;
+        margin-right: $clr_baselineRem_1;
       }
 
       & > textarea {
         margin-left: 0;
-        margin-right: 0.5rem;
+        margin-right: $clr_baselineRem_0_5;
       }
 
       //All children have a top and bottom margin regarless if they are direct descendants or if they are
@@ -169,17 +169,17 @@
       a,
       #{$styledInputs1},
       .btn {
-        margin-top: 0.25rem;
-        margin-bottom: 0.25rem;
+        margin-top: $clr_baselineRem_0_25;
+        margin-bottom: $clr_baselineRem_0_25;
       }
 
       .btn-sm {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: $clr_baselineRem_0_5;
+        margin-bottom: $clr_baselineRem_0_5;
       }
 
       .tooltip-validation {
-        height: 1rem;
+        height: $clr_baselineRem_1;
         input {
           margin: 0;
         }
@@ -201,7 +201,7 @@
     @media screen and (max-width: map-get($grid-breakpoints, sm)) {
       .form-group {
         padding-left: 0;
-        margin-bottom: 1rem;
+        margin-bottom: $clr_baselineRem_1;
 
         & > label:first-child,
         & > label:not(:first-child),
@@ -218,12 +218,12 @@
 
         & > label:first-child {
           position: relative;
-          margin: 0 0 0.5rem 0;
+          margin: 0 0 $clr_baselineRem_0_5 0;
         }
 
         & > label:not(:first-child),
         span {
-          margin: 0.5rem 0.5rem 0 0;
+          margin: $clr_baselineRem_0_5 $clr_baselineRem_0_5 0 0;
         }
 
         .tooltip-validation {
@@ -348,7 +348,7 @@
   .form {
     &.compact {
       .form-block {
-        margin: 0.5rem 0 1rem 0;
+        margin: $clr_baselineRem_0_5 0 $clr_baselineRem_1 0;
         & > label {
           margin-bottom: 0;
         }
@@ -363,7 +363,7 @@
   @include fixForIE10AndUp() {
     .form {
       & #{$styledInputs} {
-        padding-bottom: 0.125rem;
+        padding-bottom: $clr_baselineRem_0_125;
       }
     }
   }

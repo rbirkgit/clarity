@@ -40,10 +40,10 @@ $clr-typography-boldfont: map-get($clr-font-weights, bold);
 
 // Usage: ../utils/_maps.clarity.scss
 // Paragraphs
-$clr-typography-smalltext: 0.541667rem !default; // 13px
-$clr-typography-xsmalltext: 0.5rem !default; // 12px
-$clr-typography-xxsmalltext: 0.458333rem !default; // 11px
-$clr-typography-tinytext: 0.416667rem !default; // 10px
+$clr-typography-smalltext: $clr_baselineRem_0_5416 !default; // 13px
+$clr-typography-xsmalltext: $clr_baselineRem_0_5 !default; // 12px
+$clr-typography-xxsmalltext: $clr_baselineRem_0_458 !default; // 11px
+$clr-typography-tinytext: $clr_baselineRem_0_416 !default; // 10px
 
 // Header colors
 $clr-h1-color: $clr-black;
@@ -69,10 +69,10 @@ $clr-typography-commonmap-key: 'clr-common';
 // Clr 2+ quick fixes to support new rem values (should really be done in proper files but that a lot of work)
 
 $clr-h5-font-weight: $clr-typography-regfont !default;
-$clr-h5-font-size: 0.666667rem !default;
+$clr-h5-font-size: $clr_baselineRem_0_667 !default;
 $clr-h5-letter-spacing: $clr-kerning-bigtext !default;
 $clr-p1-font-weight: $clr-typography-regfont !default;
-$clr-p1-font-size: 0.583333rem !default;
+$clr-p1-font-size: $clr_baselineRem_0_583 !default;
 $clr-p1-letter-spacing: $clr-kerning-lotsatext !default;
 $clr-p3-font-weight: $clr-typography-regfont !default;
 $clr-p3-font-size: $clr-typography-smalltext !default;

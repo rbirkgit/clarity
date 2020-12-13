@@ -6,11 +6,11 @@
 // Usage: ../forms/_select.clarity.scss
 // Usage: ../layout/nav/_sidenav.clarity.scss
 // Usage: ../popover/dropdown/_dropdown.clarity.scss
-$clr-dropdown-caret-icon-dimension: 0.416667rem;
+$clr-dropdown-caret-icon-dimension: $clr_baselineRem_0_416;
 
 // Usage: ../popover/dropdown/_dropdown.clarity.scss
 $clr-dropdown-active-text-color: $clr-black;
-$clr-dropdown-caret-left-margin: 0.083333rem;
+$clr-dropdown-caret-left-margin: $clr_baselineRem_2px;
 $clr-dropdown-bg-color: $clr-white;
 $clr-dropdown-text-color: $clr-dark-gray;
 $clr-dropdown-item-text-color: clr-getTextColor();
@@ -24,8 +24,8 @@ $clr-dropdown-header-color: clr-getColor(darkest);
 
 // TODO - Remove? No usages found
 $clr-dropdown-bg-active-color: $clr-global-selection-color;
-$clr-dropdown-item-height: 1.25rem;
-$clr-dropdown-item-height-sm: 1.5rem;
+$clr-dropdown-item-height: $clr_baselineRem_1_25;
+$clr-dropdown-item-height-sm: $clr_baselineRem_1_5;
 
 // Clr 2+ quick fixes to support new rem values (should really be done in proper files but that a lot of work)
 
