@@ -50,3 +50,12 @@ $styledInputs: inputs('text', 'password', 'number', 'email', 'url', 'tel', 'date
 // Usage: ../forms/_forms.clarity.scss
 // Usage: ../forms/_inputs.clarity.scss
 $styledInputs1: inputs('button', 'submit');
+
+// Clr 2+ quick fixes to support new rem values (should really be done in proper files but that a lot of work)
+
+$clr-forms-block-label-font-size: $clr-h5-font-size !default;
+$clr-forms-block-label-font-weight: $clr-h5-font-weight !default;
+$clr-forms-block-label-letter-spacing: $clr-h5-letter-spacing !default;
+$clr-forms-text-font-size: $clr-p3-font-size !default;
+$clr-forms-text-font-weight: $clr-p3-font-weight !default;
+$clr-forms-text-letter-spacing: $clr-p3-letter-spacing !default;

@@ -26,3 +26,12 @@ $clr-dropdown-header-color: clr-getColor(darkest);
 $clr-dropdown-bg-active-color: $clr-global-selection-color;
 $clr-dropdown-item-height: 1.25rem;
 $clr-dropdown-item-height-sm: 1.5rem;
+
+// Clr 2+ quick fixes to support new rem values (should really be done in proper files but that a lot of work)
+
+$clr-dropdown-header-font-size: $clr-p4-font-size !default;
+$clr-dropdown-header-font-weight: $clr-p4-font-weight !default;
+$clr-dropdown-header-letter-spacing: $clr-p4-letter-spacing !default;
+$clr-dropdown-item-font-size: $clr-p1-font-size !default;
+$clr-dropdown-item-font-weight: $clr-p1-font-weight !default;
+$clr-dropdown-item-letter-spacing: $clr-p1-letter-spacing !default;

@@ -27,11 +27,13 @@
 }
 
 @mixin generate-dropdown-item() {
-  @include clr-getTypePropertiesForDomElement(dropdown_text, (font-size, letter-spacing, font-weight));
+  color: $clr-dropdown-item-text-color;
+  font-size: $clr-dropdown-item-font-size;
+  font-weight: $clr-dropdown-item-font-weight;
+  letter-spacing: $clr-dropdown-item-letter-spacing;
 
   background: transparent;
   border: 0;
-  color: $clr-dropdown-item-text-color;
   cursor: pointer;
   display: block;
   height: auto;

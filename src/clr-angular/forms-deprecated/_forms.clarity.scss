@@ -51,8 +51,10 @@
     .form-block {
       margin: 0.5rem 0 1.5rem 0;
       & > label {
-        @include clr-getTypePropertiesForDomElement(form_block_label, (font-size, letter-spacing, font-weight));
         color: $clr-form-text-color;
+        font-size: $clr-forms-block-label-font-size;
+        font-weight: $clr-forms-block-label-font-weight;
+        letter-spacing: $clr-forms-block-label-letter-spacing;
         margin-bottom: 0.25rem;
       }
     }
@@ -65,7 +67,12 @@
       padding-left: 9.5rem;
       //Everything else except for the first label starts after this padding on large screens
       margin-bottom: 0.5rem;
-      @include clr-getTypePropertiesForDomElement(form_group_fields, (font-size, letter-spacing, line-height));
+      font-size: $clr-forms-text-font-size;
+      font-weight: $clr-forms-text-font-weight;
+      letter-spacing: $clr-forms-text-letter-spacing;
+
+      // Adding just in case, because previous version had it and don't want to break existing layouts
+      line-height: 1rem;
 
       &.clr-row {
         padding-left: 0;
