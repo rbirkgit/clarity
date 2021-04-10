@@ -30,7 +30,7 @@
       content: '*';
       font-size: $clr_baselineRem_0_583; // Approximately 14px.
       line-height: $clr_baselineRem_0_5;
-      color: $clr-red;
+      color: $css-app-alert-danger-bg-color;
       margin-left: $clr_baselineRem_0_25;
     }
   }
@@ -51,7 +51,7 @@
     .form-block {
       margin: $clr_baselineRem_0_5 0 $clr_baselineRem_1_5 0;
       & > label {
-        color: $clr-form-text-color;
+        color: $css-forms-text-color;
         font-size: $clr-forms-block-label-font-size;
         font-weight: $clr-forms-block-label-font-weight;
         letter-spacing: $clr-forms-block-label-letter-spacing;
@@ -97,7 +97,7 @@
 
       & > label:first-child,
       &.clr-row > [class*='col-'] > label:not(.tooltip) {
-        color: $clr-forms-label-color;
+        color: $css-forms-label-color;
         font-weight: 600;
 
         @include generate-required-indicator();
@@ -105,7 +105,7 @@
 
       & > span:first-child,
       &.clr-row > [class*='col-'] > span {
-        color: $clr-forms-text-color;
+        color: $css-forms-text-color;
       }
 
       .form-control {

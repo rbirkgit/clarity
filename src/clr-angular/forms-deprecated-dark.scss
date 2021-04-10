@@ -36,7 +36,6 @@
 @import './utils/theme.dark.clarity';
 
 // Deprecated forms
-@import './forms-deprecated/utils/form-variables.clarity';
 @import './forms-deprecated/utils/mixins.clarity';
 @import './forms-deprecated/forms.clarity'; // depends on variables.clarity, mixins.clarity, color.clarity, helpers.clarity
 

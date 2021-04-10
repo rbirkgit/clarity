@@ -1,0 +1,434 @@
+$css-global-app-background: var(--clr-global-app-background);
+$css-global-selection-color: var(--clr-global-selection-color);
+$css-global-hover-bg-color: var(--clr-global-hover-bg-color);
+
+$css-close-color--normal: var(--clr-close-color--normal);
+$css-close-color--normal-opacity: var(--clr-close-color--normal-opacity);
+$css-close-color--hover: var(--clr-close-color--hover);
+$css-close-color--hover-opacity: var(--clr-close-color--hover-opacity);
+
+$css-popover-box-shadow-color: var(--clr-popover-box-shadow-color);
+
+$css-link-active-color: var(--clr-link-active-color);
+$css-link-color: var(--clr-link-color);
+$css-link-hover-color: var(--clr-link-hover-color);
+$css-link-visited-color: var(--clr-link-visited-color);
+
+$css-theme-alert-font-color: var(--clr-theme-alert-font-color);
+$css-theme-app-alert-font-color: var(--clr-theme-app-alert-font-color);
+$css-alert-info-bg-color: var(--clr-alert-info-bg-color);
+$css-alert-info-font-color: var(--clr-alert-info-font-color);
+$css-alert-info-border-color: var(--clr-alert-info-border-color);
+$css-alert-info-icon-color: var(--clr-alert-info-icon-color);
+
+$css-alert-success-bg-color: var(--clr-alert-success-bg-color);
+$css-alert-success-font-color: var(--clr-alert-success-font-color);
+$css-alert-success-border-color: var(--clr-alert-success-border-color);
+$css-alert-success-icon-color: var(--clr-alert-success-icon-color);
+
+$css-alert-danger-bg-color: var(--clr-alert-danger-bg-color);
+$css-alert-danger-font-color: var(--clr-alert-danger-font-color);
+$css-alert-danger-border-color: var(--clr-alert-danger-border-color);
+$css-alert-danger-icon-color: var(--clr-alert-danger-icon-color);
+
+$css-alert-warning-bg-color: var(--clr-alert-warning-bg-color);
+$css-alert-warning-font-color: var(--clr-alert-warning-font-color);
+$css-alert-warning-border-color: var(--clr-alert-warning-border-color);
+$css-alert-warning-icon-color: var(--clr-alert-warning-icon-color);
+
+$css-app-alert-info-bg-color: var(--clr-app-alert-info-bg-color);
+$css-app-alert-info-font-color: var(--clr-app-alert-info-font-color);
+$css-app-alert-info-border-color: var(--clr-app-alert-info-border-color);
+$css-app-alert-info-icon-color: var(--clr-app-alert-info-icon-color);
+
+$css-app-alert-warning-bg-color: var(--clr-app-alert-warning-bg-color);
+$css-app-alert-warning-icon-color: var(--clr-app-alert-warning-icon-color);
+$css-app-alert-warning-font-color: var(--clr-app-alert-warning-font-color);
+$css-app-alert-warning-border-color: var(--clr-app-alert-warning-border-color);
+
+$css-app-alert-danger-bg-color: var(--clr-app-alert-danger-bg-color);
+$css-app-alert-danger-icon-color: var(--clr-app-alert-danger-icon-color);
+$css-app-alert-danger-font-color: var(--clr-app-alert-danger-font-color);
+$css-app-alert-danger-border-color: var(--clr-app-alert-danger-border-color);
+
+$css-alert-action-color: var(--clr-alert-action-color);
+$css-alert-action-active-color: var(--clr-alert-action-active-color);
+$css-alert-close-icon-opacity: var(--clr-alert-close-icon-opacity);
+$css-alert-close-icon-hover-opacity: var(--clr-alert-close-icon-hover-opacity);
+
+$css-app-level-alert-color: var(--clr-app-level-alert-color);
+$css-app-alert-close-icon-color: var(--clr-app-alert-close-icon-color);
+
+$css-badge-font-color-light: var(--clr-badge-font-color-light);
+$css-badge-font-color-dark: var(--clr-badge-font-color-dark);
+$css-badge-info-bg-color: var(--clr-badge-info-bg-color);
+$css-badge-info-color: var(--clr-badge-info-color);
+$css-badge-success-bg-color: var(--clr-badge-success-bg-color);
+$css-badge-success-color: var(--clr-badge-success-color);
+$css-badge-warning-bg-color: var(--clr-badge-warning-bg-color);
+$css-badge-warning-color: var(--clr-badge-warning-color);
+$css-badge-danger-bg-color: var(--clr-badge-danger-bg-color);
+$css-badge-danger-color: var(--clr-badge-danger-color);
+$css-badge-gray-bg-color: var(--clr-badge-gray-bg-color);
+$css-badge-purple-bg-color: var(--clr-badge-purple-bg-color);
+$css-badge-blue-bg-color: var(--clr-badge-blue-bg-color);
+$css-badge-orange-bg-color: var(--clr-badge-orange-bg-color);
+$css-badge-light-blue-bg-color: var(--clr-badge-light-blue-bg-color);
+
+$css-btn-disabled-font-color: var(--clr-btn-disabled-font-color);
+$css-btn-outline-disabled-font-color: var(--clr-btn-outline-disabled-font-color);
+$css-btn-disabled-bg-color: var(--clr-btn-disabled-bg-color);
+$css-btn-disabled-border-color: var(--clr-btn-disabled-border-color);
+
+$css-btn-icon-disabled-color: var(--clr-btn-icon-disabled-color);
+
+$css-btn-default-color: var(--clr-btn-default-color);
+$css-btn-default-bg-color: var(--clr-btn-default-bg-color);
+$css-btn-default-hover-bg-color: var(--clr-btn-default-hover-bg-color);
+$css-btn-default-hover-color: var(--clr-btn-default-hover-color);
+$css-btn-default-box-shadow-color: var(--clr-btn-default-box-shadow-color);
+$css-btn-default-checked-color: var(--clr-btn-default-checked-color);
+$css-btn-default-checked-bg-color: var(--clr-btn-default-checked-bg-color);
+$css-btn-default-disabled-color: var(--clr-btn-default-disabled-color);
+$css-btn-default-disabled-border-color: var(--clr-btn-default-disabled-border-color);
+
+$css-btn-default-outline-color: var(--clr-btn-default-outline-color);
+$css-btn-default-outline-bg-color: var(--clr-btn-default-outline-bg-color);
+$css-btn-default-outline-hover-bg-color: var(--clr-btn-default-outline-hover-bg-color);
+$css-btn-default-outline-hover-color: var(--clr-btn-default-outline-hover-color);
+$css-btn-default-outline-box-shadow-color: var(--clr-btn-default-outline-box-shadow-color);
+$css-btn-default-outline-checked-color: var(--clr-btn-default-outline-checked-color);
+$css-btn-default-outline-checked-bg-color: var(--clr-btn-default-outline-checked-bg-color);
+$css-btn-default-outline-disabled-color: var(--clr-btn-default-outline-disabled-color);
+$css-btn-default-outline-disabled-border-color: var(--clr-btn-default-outline-disabled-border-color);
+$css-btn-default-outline-disabled-checked-color: var(--clr-btn-default-outline-disabled-checked-color);
+
+$css-btn-primary-color: var(--clr-btn-primary-color);
+$css-btn-primary-bg-color: var(--clr-btn-primary-bg-color);
+$css-btn-primary-border-color: var(--clr-btn-primary-border-color);
+$css-btn-primary-hover-bg-color: var(--clr-btn-primary-hover-bg-color);
+$css-btn-primary-hover-color: var(--clr-btn-primary-hover-color);
+$css-btn-primary-box-shadow-color: var(--clr-btn-primary-box-shadow-color);
+$css-btn-primary-checked-color: var(--clr-btn-primary-checked-color);
+$css-btn-primary-disabled-color: var(--clr-btn-primary-disabled-color);
+$css-btn-primary-disabled-bg-color: var(--clr-btn-primary-disabled-bg-color);
+$css-btn-primary-disabled-border-color: var(--clr-btn-primary-disabled-border-color);
+
+$css-btn-success-color: var(--clr-btn-success-color);
+$css-btn-success-bg-color: var(--clr-btn-success-bg-color);
+$css-btn-success-hover-bg-color: var(--clr-btn-success-hover-bg-color);
+$css-btn-success-hover-color: var(--clr-btn-success-hover-color);
+$css-btn-success-box-shadow-color: var(--clr-btn-success-box-shadow-color);
+$css-btn-success-checked-bg-color: var(--clr-btn-success-checked-bg-color);
+$css-btn-success-disabled-color: var(--clr-btn-success-disabled-color);
+$css-btn-success-disabled-bg-color: var(--clr-btn-success-disabled-bg-color);
+$css-btn-success-disabled-border-color: var(--clr-btn-success-disabled-border-color);
+
+$css-btn-success-outline-color: var(--clr-btn-success-outline-color);
+$css-btn-success-outline-border-color: var(--clr-btn-success-outline-border-color);
+$css-btn-success-outline-hover-bg-color: var(--clr-btn-success-outline-hover-bg-color);
+$css-btn-success-outline-hover-color: var(--clr-btn-success-outline-hover-color);
+$css-btn-success-outline-box-shadow-color: var(--clr-btn-success-outline-box-shadow-color);
+$css-btn-success-outline-checked-color: var(--clr-btn-success-outline-checked-color);
+$css-btn-success-outline-disabled-color: var(--clr-btn-success-outline-disabled-color);
+$css-btn-success-outline-disabled-bg-color: var(--clr-btn-success-outline-disabled-bg-color);
+$css-btn-success-outline-disabled-border-color: var(--clr-btn-success-outline-disabled-border-color);
+
+$css-btn-danger-color: var(--clr-btn-danger-color);
+$css-btn-danger-bg-color: var(--clr-btn-danger-bg-color);
+$css-btn-danger-hover-bg-color: var(--clr-btn-danger-hover-bg-color);
+$css-btn-danger-hover-color: var(--clr-btn-danger-hover-color);
+$css-btn-danger-box-shadow-color: var(--clr-btn-danger-box-shadow-color);
+$css-btn-danger-checked-bg-color: var(--clr-btn-danger-checked-bg-color);
+$css-btn-danger-disabled-color: var(--clr-btn-danger-disabled-color);
+$css-btn-danger-disabled-bg-color: var(--clr-btn-danger-disabled-bg-color);
+$css-btn-danger-disabled-border-color: var(--clr-btn-danger-disabled-border-color);
+
+$css-btn-danger-outline-border-color: var(--clr-btn-danger-outline-border-color);
+$css-btn-danger-outline-color: var(--clr-btn-danger-outline-color);
+$css-btn-danger-outline-hover-bg-color: var(--clr-btn-danger-outline-hover-bg-color);
+$css-btn-danger-outline-hover-color: var(--clr-btn-danger-outline-hover-color);
+$css-btn-danger-outline-box-shadow-color: var(--clr-btn-danger-outline-box-shadow-color);
+$css-btn-danger-outline-checked-bg-color: var(--clr-btn-danger-outline-checked-bg-color);
+$css-btn-danger-outline-checked-color: var(--clr-btn-danger-outline-checked-color);
+$css-btn-danger-outline-disabled-color: var(--clr-btn-danger-outline-disabled-color);
+$css-btn-danger-outline-disabled-bg-color: var(--clr-btn-danger-outline-disabled-bg-color);
+$css-btn-danger-outline-disabled-border-color: var(--clr-btn-danger-outline-disabled-border-color);
+
+$css-btn-link-color: var(--clr-btn-link-color);
+$css-btn-link-hover-color: var(--clr-btn-link-hover-color);
+$css-btn-link-checked-color: var(--clr-btn-link-checked-color);
+$css-btn-link-disabled-color: var(--clr-btn-link-disabled-color);
+
+$css-btn-inverse-border-color: var(--clr-btn-inverse-border-color);
+$css-btn-inverse-bg-color: var(--clr-btn-inverse-bg-color);
+$css-btn-inverse-color: var(--clr-btn-inverse-color);
+$css-btn-inverse-hover-bg-color: var(--clr-btn-inverse-hover-bg-color);
+$css-btn-inverse-hover-color: var(--clr-btn-inverse-hover-color);
+$css-btn-inverse-box-shadow-color: var(--clr-btn-inverse-box-shadow-color);
+$css-btn-inverse-checked-bg-color: var(--clr-btn-inverse-checked-bg-color);
+$css-btn-inverse-checked-color: var(--clr-btn-inverse-checked-color);
+$css-btn-inverse-disabled-color: var(--clr-btn-inverse-disabled-color);
+$css-btn-inverse-disabled-border-color: var(--clr-btn-inverse-disabled-border-color);
+
+$css-card-bg-color: var(--clr-card-bg-color);
+$css-card-border-color: var(--clr-card-border-color);
+$css-card-title-color: var(--clr-card-title-color);
+$css-card-box-shadow: var(--clr-card-box-shadow);
+$css-card-divider-color: var(--clr-card-divider-color);
+
+$css-datagrid-icon-color: var(--clr-datagrid-icon-color);
+$css-datagrid-row-hover: var(--clr-datagrid-row-hover);
+$css-datagrid-row-selected: var(--clr-datagrid-row-selected);
+$css-datagrid-popover-bg-color: var(--clr-datagrid-popover-bg-color);
+$css-datagrid-action-toggle: var(--clr-datagrid-action-toggle);
+$css-datagrid-pagination-btn-color: var(--clr-datagrid-pagination-btn-color);
+$css-datagrid-pagination-btn-disabled-color: var(--clr-datagrid-pagination-btn-disabled-color);
+$css-datagrid-pagination-btn-disabled-opacity: var(--clr-datagrid-pagination-btn-disabled-opacity);
+$css-datagrid-pagination-input-border-color: var(--clr-datagrid-pagination-input-border-color);
+$css-datagrid-pagination-input-border-focus-color: var(--clr-datagrid-pagination-input-border-focus-color);
+$css-datagrid-popover-border-color: var(--clr-datagrid-popover-border-color);
+$css-datagrid-action-popover-hover-color: var(--clr-datagrid-action-popover-hover-color);
+$css-datagrid-loading-background: var(--clr-datagrid-loading-background);
+
+$css-dropdown-active-text-color: var(--clr-dropdown-active-text-color);
+$css-dropdown-bg-color: var(--clr-dropdown-bg-color);
+$css-dropdown-text-color: var(--clr-dropdown-text-color);
+$css-dropdown-item-color: var(--clr-dropdown-item-color);
+$css-dropdown-border-color: var(--clr-dropdown-border-color);
+$css-dropdown-child-border-color: var(--clr-dropdown-child-border-color);
+$css-dropdown-bg-active-color: var(--clr-dropdown-bg-active-color);
+$css-dropdown-bg-hover-color: var(--clr-dropdown-bg-hover-color);
+$css-dropdown-selection-color: var(--clr-dropdown-selection-color);
+$css-dropdown-box-shadow: var(--clr-dropdown-box-shadow);
+$css-dropdown-divider-color: var(--clr-dropdown-divider-color);
+$css-dropdown-header-color: var(--clr-dropdown-header-color);
+
+$css-calendar-background-color: var(--clr-calendar-background-color);
+$css-calendar-border-color: var(--clr-calendar-border-color);
+$css-datepicker-trigger-color: var(--clr-datepicker-trigger-color);
+$css-datepicker-trigger-hover-color: var(--clr-datepicker-trigger-hover-color);
+$css-calendar-btn-color: var(--clr-calendar-btn-color);
+$css-calendar-btn-hover-focus-color: var(--clr-calendar-btn-hover-focus-color);
+$css-calendar-active-cell-background-color: var(--clr-calendar-active-cell-background-color);
+$css-calendar-active-focus-cell-background-color: var(--clr-calendar-active-focus-cell-background-color);
+$css-calendar-today-date-cell-color: var(--clr-calendar-today-date-cell-color);
+$css-calendar-active-cell-color: var(--clr-calendar-active-cell-color);
+
+$css-forms-label-color: var(--clr-forms-label-color);
+$css-forms-text-color: var(--clr-forms-text-color);
+$css-forms-invalid-color: var(--clr-forms-invalid-color);
+$css-forms-valid-color: var(--clr-forms-valid-color);
+$css-forms-valid-text-color: var(--clr-forms-valid-text-color);
+$css-forms-subtext-color: var(--clr-forms-subtext-color);
+$css-forms-placeholder-color: var(--clr-forms-placeholder-color);
+$css-forms-border-color: var(--clr-forms-border-color);
+$css-forms-focused-color: var(--clr-forms-focused-color);
+$css-forms-subtext-disabled-color: var(--clr-forms-subtext-disabled-color);
+$css-forms-border-disabled-color: var(--clr-forms-border-disabled-color);
+$css-forms-text-disabled-color: var(--clr-forms-text-disabled-color);
+$css-forms-label-disabled-color: var(--clr-forms-label-disabled-color);
+
+$css-forms-textarea-background-color: var(--clr-forms-textarea-background-color);
+$css-forms-select-multiple-background-color: var(--clr-forms-select-multiple-background-color);
+$css-forms-select-multiple-border-color: var(--clr-forms-select-multiple-border-color);
+$css-forms-select-option-color: var(--clr-forms-select-option-color);
+
+$css-forms-checkbox-label-color: var(--clr-forms-checkbox-label-color);
+$css-forms-checkbox-background-color: var(--clr-forms-checkbox-background-color);
+$css-forms-checkbox-checked-shadow: var(--clr-forms-checkbox-checked-shadow);
+$css-forms-checkbox-indeterminate-border-color: var(--clr-forms-checkbox-indeterminate-border-color);
+$css-forms-checkbox-mark-color: var(--clr-forms-checkbox-mark-color);
+$css-forms-checkbox-disabled-background-color: var(--clr-forms-checkbox-disabled-background-color);
+$css-forms-checkbox-disabled-mark-color: var(--clr-forms-checkbox-disabled-mark-color);
+
+$css-forms-radio-label-color: var(--clr-forms-radio-label-color);
+$css-forms-radio-selected-shadow: var(--clr-forms-radio-selected-shadow);
+$css-forms-radio-focused-shadow: var(--clr-forms-radio-focused-shadow);
+$css-forms-radio-disabled-background-color: var(--clr-forms-radio-disabled-background-color);
+$css-forms-radio-disabled-mark-color: var(--clr-forms-radio-disabled-mark-color);
+$css-forms-radio-disabled-shadow: var(--clr-forms-radio-disabled-shadow);
+
+$css-forms-range-progress-fill-color: var(--clr-forms-range-progress-fill-color);
+$css-forms-range-track-color: var(--clr-forms-range-track-color);
+
+$css-combobox-border-color: var(--clr-combobox-border-color);
+$css-combobox-input-background-color: var(--clr-combobox-input-background-color);
+$css-combobox-pill-background-color: var(--clr-combobox-pill-background-color);
+$css-combobox-pill-border-color: var(--clr-combobox-pill-border-color);
+$css-combobox-pill-font-color: var(--clr-combobox-pill-font-color);
+$css-combobox-filter-highlight: var(--clr-combobox-filter-highlight);
+
+$css-header-bgColor: var(--clr-header-bgColor);
+$css-header-default-bg-color: var(--clr-header-default-bg-color);
+$css-header-1-bg-color: var(--clr-header-1-bg-color);
+$css-header-2-bg-color: var(--clr-header-2-bg-color);
+$css-header-3-bg-color: var(--clr-header-3-bg-color);
+$css-header-4-bg-color: var(--clr-header-4-bg-color);
+$css-header-5-bg-color: var(--clr-header-5-bg-color);
+$css-header-6-bg-color: var(--clr-header-6-bg-color);
+
+$css-icon-color-success: var(--clr-icon-color-success);
+$css-icon-color-error: var(--clr-icon-color-error);
+$css-icon-color-warning: var(--clr-icon-color-warning);
+$css-icon-color-info: var(--clr-icon-color-info);
+$css-icon-color-inverse: var(--clr-icon-color-inverse);
+$css-icon-color-highlight: var(--clr-icon-color-highlight);
+
+$css-label-font-color-light: var(--clr-label-font-color-light);
+$css-label-font-color-dark: var(--clr-label-font-color-dark);
+$css-label-bg-hover-color: var(--clr-label-bg-hover-color);
+$css-label-gray-bg-color: var(--clr-label-gray-bg-color);
+$css-label-purple-bg-color: var(--clr-label-purple-bg-color);
+$css-label-blue-bg-color: var(--clr-label-blue-bg-color);
+$css-label-orange-bg-color: var(--clr-label-orange-bg-color);
+$css-label-light-blue-bg-color: var(--clr-label-light-blue-bg-color);
+$css-label-info-bg-color: var(--clr-label-info-bg-color);
+$css-label-info-font-color: var(--clr-label-info-font-color);
+$css-label-info-border-color: var(--clr-label-info-border-color);
+$css-label-success-bg-color: var(--clr-label-success-bg-color);
+$css-label-success-font-color: var(--clr-label-success-font-color);
+$css-label-success-border-color: var(--clr-label-success-border-color);
+$css-label-danger-bg-color: var(--clr-label-danger-bg-color);
+$css-label-danger-font-color: var(--clr-label-danger-font-color);
+$css-label-danger-border-color: var(--clr-label-danger-border-color);
+$css-label-warning-bg-color: var(--clr-label-warning-bg-color);
+$css-label-warning-font-color: var(--clr-label-warning-font-color);
+$css-label-warning-border-color: var(--clr-label-warning-border-color);
+
+$css-login-background-color: var(--clr-login-background-color);
+$css-login-background: var(--clr-login-background);
+
+$css-modal-close-color: var(--clr-modal-close-color);
+$css-modal-bg-color: var(--clr-modal-bg-color);
+$css-modal-backdrop-color: var(--clr-modal-backdrop-color);
+
+$css-transition-style: var(--clr-transition-style);
+$css-nav-background-color: var(--clr-nav-background-color);
+$css-responsive-nav-hover-bg: var(--clr-responsive-nav-hover-bg);
+$css-sliding-panel-text-color: var(--clr-sliding-panel-text-color);
+
+$css-sidenav-border-color: var(--clr-sidenav-border-color);
+$css-sidenav-link-hover-color: var(--clr-sidenav-link-hover-color);
+
+$css-subnav-bgColor: var(--clr-subnav-bgColor);
+$css-nav-shadow: var(--clr-nav-shadow);
+
+$css-progress-defaultBarColor: var(--clr-progress-defaultBarColor);
+$css-progress-success-color: var(--clr-progress-success-color);
+$css-progress-danger-color: var(--clr-progress-danger-color);
+$css-progress-warning-color: var(--clr-progress-warning-color);
+$css-progress-bgColor: var(--clr-progress-bgColor);
+
+$css-signpost-action-color: var(--clr-signpost-action-color);
+$css-signpost-action-hover-color: var(--clr-signpost-action-hover-color);
+$css-signpost-content-bg-color: var(--clr-signpost-content-bg-color);
+$css-signpost-content-border-color: var(--clr-signpost-content-border-color);
+$css-signpost-border-size: var(--clr-signpost-border-size);
+$css-signpost-pointer-border: var(--clr-signpost-pointer-border);
+$css-signpost-pointer-invisible-border: var(--clr-signpost-pointer-invisible-border);
+$css-signpost-pointer-psuedo-border: var(--clr-signpost-pointer-psuedo-border);
+
+$css-spinner-color: var(--clr-spinner-color);
+$css-spinner-bg-color: var(--clr-spinner-bg-color);
+$css-spinner-opacity: var(--clr-spinner-opacity);
+
+$css-stack-view-border-color: var(--clr-stack-view-border-color);
+$css-stack-view-bg-color: var(--clr-stack-view-bg-color);
+$css-stack-view-stack-block-border-bottom: var(--clr-stack-view-stack-block-border-bottom);
+$css-stack-view-border-box-color: var(--clr-stack-view-border-box-color);
+$css-stack-block-changed-border-top-color: var(--clr-stack-block-changed-border-top-color);
+$css-stack-view-stack-block-label-and-content-bg-color: var(--clr-stack-view-stack-block-label-and-content-bg-color);
+$css-stack-view-stack-children-stack-block-border-bottom-color: var(
+  --clr-stack-view-stack-children-stack-block-border-bottom-color
+);
+$css-stack-view-stack-children-stack-block-label-and-content-bg-color: var(
+  --clr-stack-view-stack-children-stack-block-label-and-content-bg-color
+);
+$css-stack-view-stack-block-label-text-color: var(--clr-stack-view-stack-block-label-text-color);
+$css-stack-view-stack-block-expanded-bg-color: var(--clr-stack-view-stack-block-expanded-bg-color);
+$css-stack-view-stack-block-expandable-hover: var(--clr-stack-view-stack-block-expandable-hover);
+$css-stack-view-stack-block-content-text-color: var(--clr-stack-view-stack-block-content-text-color);
+$css-stack-view-stack-block-expanded-text-color: var(--clr-stack-view-stack-block-expanded-text-color);
+$css-stack-view-stack-block-caret-color: var(--clr-stack-view-stack-block-caret-color);
+
+$css-thead-bgcolor: var(--clr-thead-bgcolor);
+$css-table-bgcolor: var(--clr-table-bgcolor);
+$css-table-font-color: var(--clr-table-font-color);
+$css-datagrid-default-border-color: var(--clr-datagrid-default-border-color);
+$css-table-header-border-bottom-color: var(--clr-table-header-border-bottom-color);
+$css-table-footer-border-top-color: var(--clr-table-footer-border-top-color);
+$css-tablerow-bordercolor: var(--clr-tablerow-bordercolor);
+$css-table-border-color: var(--clr-table-border-color);
+$css-table-bordercolor: var(--clr-table-bordercolor);
+$css-table-borderstyle: var(--clr-table-borderstyle);
+
+$css-nav-box-shadow-color: var(--clr-nav-box-shadow-color);
+$css-nav-active-box-shadow-color: var(--clr-nav-active-box-shadow-color);
+$css-nav-link-active-color: var(--clr-nav-link-active-color);
+$css-nav-link-color: var(--clr-nav-link-color);
+
+$css-timeline-line-color: var(--clr-timeline-line-color);
+$css-timeline-step-header-color: var(--clr-timeline-step-header-color);
+$css-timeline-step-title-color: var(--clr-timeline-step-title-color);
+$css-timeline-step-description-color: var(--clr-timeline-step-description-color);
+$css-timeline-incomplete-step-color: var(--clr-timeline-incomplete-step-color);
+$css-timeline-current-step-color: var(--clr-timeline-current-step-color);
+$css-timeline-success-step-color: var(--clr-timeline-success-step-color);
+$css-timeline-error-step-color: var(--clr-timeline-error-step-color);
+
+$css-tooltip-color: var(--clr-tooltip-color);
+$css-tooltip-background-color: var(--clr-tooltip-background-color);
+
+$css-tree-node-caret-link-hover-color: var(--clr-tree-node-caret-link-hover-color);
+$css-tree-link-hover-color: var(--clr-tree-link-hover-color);
+$css-tree-link-selection-color: var(--clr-tree-link-selection-color);
+$css-tree-link-text-color: var(--clr-tree-link-text-color);
+$css-tree-node-caret-color: var(--clr-tree-node-caret-color);
+
+$css-global-font-color: var(--clr-global-font-color);
+$css-global-font-color-secondary: var(--clr-global-font-color-secondary);
+
+$css-h1-color: var(--clr-h1-color);
+$css-h2-color: var(--clr-h2-color);
+$css-h3-color: var(--clr-h3-color);
+$css-h4-color: var(--clr-h4-color);
+$css-h5-color: var(--clr-h5-color);
+$css-h6-color: var(--clr-h6-color);
+
+$css-p1-color: var(--clr-p1-color);
+$css-p2-color: var(--clr-p2-color);
+$css-p3-color: var(--clr-p3-color);
+$css-p4-color: var(--clr-p4-color);
+$css-p5-color: var(--clr-p5-color);
+$css-p6-color: var(--clr-p6-color);
+$css-p7-color: var(--clr-p7-color);
+$css-p8-color: var(--clr-p8-color);
+
+$css-vertical-nav-item-color: var(--clr-vertical-nav-item-color);
+$css-vertical-nav-item-active-color: var(--clr-vertical-nav-item-active-color);
+$css-vertical-nav-bg-color: var(--clr-vertical-nav-bg-color);
+$css-vertical-nav-active-bg-color: var(--clr-vertical-nav-active-bg-color);
+$css-vertical-nav-hover-bg-color: var(--clr-vertical-nav-hover-bg-color);
+$css-vertical-nav-icon-active-color: var(--clr-vertical-nav-icon-active-color);
+$css-vertical-nav-toggle-icon-color: var(--clr-vertical-nav-toggle-icon-color);
+$css-vertical-nav-trigger-divider-border-color: var(--clr-vertical-nav-trigger-divider-border-color);
+
+$css-wizard-sidenav-bgcolor: var(--clr-wizard-sidenav-bgcolor);
+$css-wizard-sidenav-text--active: var(--clr-wizard-sidenav-text--active);
+$css-wizard-stepnav-active-bgcolor: var(--clr-wizard-stepnav-active-bgcolor);
+$css-wizard-stepnav-border-color: var(--clr-wizard-stepnav-border-color);
+$css-wizard-stepnav-border-color--active: var(--clr-wizard-stepnav-border-color--active);
+$css-wizard-step-nav-border-color: var(--clr-wizard-step-nav-border-color);
+$css-wizard-sidenav-text: var(--clr-wizard-sidenav-text);
+$css-wizard-title-text: var(--clr-wizard-title-text);
+$css-wizard-main-textColor: var(--clr-wizard-main-textColor);
+$css-wizard-stepnav-error-color: var(--clr-wizard-stepnav-error-color);
+
+$css-accordion-text-color: var(--clr-accordion-text-color);
+$css-accordion-active-background-color: var(--clr-accordion-active-background-color);
+$css-accordion-header-hover-background-color: var(--clr-accordion-header-hover-background-color);
+$css-accordion-content-background-color: var(--clr-accordion-content-background-color);
+$css-accordion-header-background-color: var(--clr-accordion-header-background-color);
+$css-accordion-border-left-color: var(--clr-accordion-border-left-color);
+$css-accordion-border-color: var(--clr-accordion-border-color);

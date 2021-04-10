@@ -47,7 +47,7 @@
 
       &:not(.btn) {
         padding: 0 $clr-dropdown-caret-icon-dimension + $clr-dropdown-caret-left-margin 0 0;
-        color: $clr-dropdown-active-text-color;
+        color: $css-dropdown-active-text-color;
         clr-icon[shape^='caret'] {
           right: 0;
         }
@@ -58,7 +58,7 @@
       background: transparent;
       border: none;
       cursor: pointer;
-      color: $clr-dropdown-active-text-color;
+      color: $css-dropdown-active-text-color;
     }
   }
 
@@ -72,7 +72,7 @@
     @include generate-dropdown-menu();
 
     .tng-dropdown-header {
-      color: $clr-dropdown-header-color;
+      color: $css-dropdown-header-color;
       font-size: $clr-dropdown-header-font-size;
       font-weight: $clr-dropdown-header-font-weight;
       letter-spacing: $clr-dropdown-header-letter-spacing;
@@ -128,7 +128,7 @@
     }
 
     .tng-dropdown-divider {
-      border-bottom: $clr-default-borderwidth solid $clr-dropdown-divider-color;
+      border-bottom: $clr-default-borderwidth solid $css-dropdown-divider-color;
       margin: $clr_baselineRem_0_25 0;
     }
   }
@@ -219,7 +219,7 @@
       // -1 is to account for the border that shifts the menu down by 1 pixel
 
       .tng-dropdown-menu {
-        border-color: $clr-dropdown-child-border-color;
+        border-color: $css-dropdown-child-border-color;
         position: absolute;
       }
 
